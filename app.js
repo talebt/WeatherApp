@@ -5,7 +5,7 @@ const card = document.querySelector('.card');
 const details = document.querySelector('.details');
 const time = document.querySelector('img.time');
 const icon = document.querySelector('.icon img');
-console.log(icon);
+//console.log(icon);
 
 const updateUI = (data)=>{
     const{cityDets,weather} = data; //destructuer prperties
